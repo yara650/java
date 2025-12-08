@@ -23,6 +23,7 @@ public class StudentAverageScore {
             double avg = total / numberOfCourses;
             System.out.println("The average score of student " + (i + 1) + " is " + avg);
         }
+        System.out.println();
 
         scanner.close();
     }
